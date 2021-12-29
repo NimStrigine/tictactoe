@@ -1,3 +1,19 @@
 * {
   box-sizing: border-box;
 }
+
+#board-container {
+  display: grid;
+  min-width: 300px;
+  max-width: 600px;
+  grid: repeat(3, 1fr) / repeat(3, 1fr);
+  gap: 5px;
+  height: auto;
+}
+
+.space {
+  aspect-ratio: 1/1;
+  width: 100%;
+  font-size: 100%;
+  padding: 0;
+}
